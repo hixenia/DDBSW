@@ -55,11 +55,19 @@ class CWInsertManuallyViewController: UIViewController {
             }
             print("P2=\(P2) ")
         }
+        
         var k: [Double] = []//оголошуємо масив коефіцієнтів продуктивності пристроїв
+    //    var s: [String] = []
+
         if let k1 = kTextField.text{
-            if let kAsNumber = Double(k1) {
-                k.append(kAsNumber)
+                var s = k1.components(separatedBy: [" "])
+                print("s=\(s) ")
+                print("s[0]=\(s[0]) ")
+            for i in 0..<s.count {
+                k.append(NSString(string: s[i]).doubleValue)
             }
+            
+           // print("s[0]=\(s[0]) ")
             print("k[0]=\(k[0]) ")
         }
        /* k = [0.1, 1.1, 2.1, 3.1, 4.1]
