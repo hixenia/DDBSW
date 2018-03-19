@@ -66,17 +66,8 @@ class CWInsertManuallyViewController: UIViewController {
             for i in 0..<s.count {
                 k.append(NSString(string: s[i]).doubleValue)
             }
-            
-           // print("s[0]=\(s[0]) ")
             print("k[0]=\(k[0]) ")
         }
-       /* k = [0.1, 1.1, 2.1, 3.1, 4.1]
-       if let k1 = kTextField.text{
-            if let kAsNumber = [Double](k) {
-                k = kAsNumber
-            }
-            print("k=\(k) ")
-        }*/
         var mindet: Double = firstCriterion(m: &m, x: &x, k: &k, P1: &P1, P2: &P2)//Обчислимо значення першого критерію та позначимо його як перше мінімальне
         var i: Int = m
         mdivide(i: &i, m: &m, x: &x, k: &k, P1: &P1, P2: &P2, mindet: &mindet, a: &a)//виконаємо повний перебір та пошук масиву із мінімальним значенням першого критерію
@@ -85,7 +76,7 @@ class CWInsertManuallyViewController: UIViewController {
             print("\(a[i])")
         }
         print("min fc=\(mindet)")
-        resultCriterionOne.text = String(mindet)
+        resultCriterionOne.text = "Значення першого критерію:\n"+String(mindet)
     }
     override func viewDidLoad() {
         super.viewDidLoad()
