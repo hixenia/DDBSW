@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DDBSW/ViewController.swift"
-            timestampString = "543184829.835295"
+            timestampString = "543186932.710743"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "62"
@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DDBSW/CWInsertManuallyViewController.swift"
-            timestampString = "543184829.835438"
+            timestampString = "543362748.10017"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
             landmarkName = "calculateResult(_:)"
             landmarkType = "7">
          </BreakpointContent>

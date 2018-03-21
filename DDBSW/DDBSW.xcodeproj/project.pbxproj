@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		A71FDF04205F0EFD005A43E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71FDF03205F0EFD005A43E9 /* AppDelegate.swift */; };
 		A71FDF06205F0EFD005A43E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71FDF05205F0EFD005A43E9 /* ViewController.swift */; };
-		A71FDF09205F0EFD005A43E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A71FDF07205F0EFD005A43E9 /* Main.storyboard */; };
 		A71FDF0B205F0EFD005A43E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A71FDF0A205F0EFD005A43E9 /* Assets.xcassets */; };
 		A71FDF0E205F0EFD005A43E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A71FDF0C205F0EFD005A43E9 /* LaunchScreen.storyboard */; };
 		A71FDF19205F0EFD005A43E9 /* DDBSWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71FDF18205F0EFD005A43E9 /* DDBSWTests.swift */; };
 		A71FDF24205F0EFD005A43E9 /* DDBSWUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71FDF23205F0EFD005A43E9 /* DDBSWUITests.swift */; };
 		A720AB602060335600343CB0 /* CWInsertManuallyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A720AB5F2060335600343CB0 /* CWInsertManuallyViewController.swift */; };
 		A720AB62206033B800343CB0 /* CWStartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A720AB61206033B800343CB0 /* CWStartViewController.swift */; };
+		A784B02B2062F25F00CC8A51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A784B0292062F25E00CC8A51 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +39,6 @@
 		A71FDF00205F0EFD005A43E9 /* DDBSW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDBSW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A71FDF03205F0EFD005A43E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A71FDF05205F0EFD005A43E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A71FDF08205F0EFD005A43E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A71FDF0A205F0EFD005A43E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A71FDF0D205F0EFD005A43E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A71FDF0F205F0EFD005A43E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +50,7 @@
 		A71FDF25205F0EFD005A43E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A720AB5F2060335600343CB0 /* CWInsertManuallyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CWInsertManuallyViewController.swift; sourceTree = "<group>"; };
 		A720AB61206033B800343CB0 /* CWStartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CWStartViewController.swift; sourceTree = "<group>"; };
+		A784B02A2062F25E00CC8A51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,7 @@
 			children = (
 				A71FDF03205F0EFD005A43E9 /* AppDelegate.swift */,
 				A71FDF05205F0EFD005A43E9 /* ViewController.swift */,
-				A71FDF07205F0EFD005A43E9 /* Main.storyboard */,
+				A784B0292062F25E00CC8A51 /* Main.storyboard */,
 				A71FDF0A205F0EFD005A43E9 /* Assets.xcassets */,
 				A71FDF0C205F0EFD005A43E9 /* LaunchScreen.storyboard */,
 				A71FDF0F205F0EFD005A43E9 /* Info.plist */,
@@ -238,9 +238,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A784B02B2062F25F00CC8A51 /* Main.storyboard in Resources */,
 				A71FDF0E205F0EFD005A43E9 /* LaunchScreen.storyboard in Resources */,
 				A71FDF0B205F0EFD005A43E9 /* Assets.xcassets in Resources */,
-				A71FDF09205F0EFD005A43E9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,20 +304,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A71FDF07205F0EFD005A43E9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A71FDF08205F0EFD005A43E9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A71FDF0C205F0EFD005A43E9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				A71FDF0D205F0EFD005A43E9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A784B0292062F25E00CC8A51 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A784B02A2062F25E00CC8A51 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -437,8 +437,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CGLWULMA8G;
 				INFOPLIST_FILE = DDBSW/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sircfc.Picarts.DDBSW;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sircfc.Picarts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -452,8 +453,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CGLWULMA8G;
 				INFOPLIST_FILE = DDBSW/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sircfc.Picarts.DDBSW;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sircfc.Picarts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
