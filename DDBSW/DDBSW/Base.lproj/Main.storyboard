@@ -309,13 +309,27 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YK5-Wb-omP">
+                                <rect key="frame" x="16" y="311" width="343" height="44"/>
+                                <color key="backgroundColor" red="0.0099297408010000001" green="0.1572742462" blue="0.45473077890000002" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="xhY-z3-9LP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="18"/>
+                                <state key="normal" title="Згенерувати дані">
+                                    <color key="titleColor" red="0.99607473609999997" green="0.9922029376" blue="0.99199241400000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="Fi2-V5-mG0" firstAttribute="trailing" secondItem="YK5-Wb-omP" secondAttribute="trailing" constant="16" id="QQz-Kn-ziQ"/>
                             <constraint firstItem="Fi2-V5-mG0" firstAttribute="trailing" secondItem="84u-53-Evu" secondAttribute="trailing" constant="16" id="SMn-T4-PJo"/>
                             <constraint firstItem="g11-iQ-aty" firstAttribute="leading" secondItem="Fi2-V5-mG0" secondAttribute="leading" constant="16" id="bUa-SG-dBK"/>
                             <constraint firstItem="84u-53-Evu" firstAttribute="leading" secondItem="Fi2-V5-mG0" secondAttribute="leading" constant="16" id="dRD-W1-b89"/>
+                            <constraint firstItem="YK5-Wb-omP" firstAttribute="leading" secondItem="Fi2-V5-mG0" secondAttribute="leading" constant="16" id="hjF-3f-wrX"/>
                             <constraint firstItem="84u-53-Evu" firstAttribute="top" secondItem="g11-iQ-aty" secondAttribute="bottom" constant="16" id="knb-2u-Rhj"/>
+                            <constraint firstItem="Fi2-V5-mG0" firstAttribute="bottom" secondItem="YK5-Wb-omP" secondAttribute="bottom" constant="312" id="o8F-eF-ha3"/>
                             <constraint firstItem="Fi2-V5-mG0" firstAttribute="trailing" secondItem="g11-iQ-aty" secondAttribute="trailing" constant="16" id="rd5-ih-pau"/>
                             <constraint firstItem="g11-iQ-aty" firstAttribute="top" secondItem="hi1-Sb-0OF" secondAttribute="bottom" constant="16" id="vnH-wD-2kF"/>
                         </constraints>
